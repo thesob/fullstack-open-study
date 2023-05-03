@@ -1,0 +1,17 @@
+POST http://localhost:3001/api/notes/
+content-type: application/json
+
+{
+    "content":"A POST request from Postman",
+    "important": true
+}
+
+###
+// too short content
+POST http://localhost:3001/api/notes/
+content-type: application/json
+
+{
+    "content":"lol",
+    "important": true
+}
