@@ -1,0 +1,36 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+  "content": "Ensure that everything still works",
+  "important": true
+}
+
+###
+// Fail due to creation intent mising data
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+  "important": true
+}
+
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+  "content": "User id of the note creator is at the start sent along the request",
+  "important": true,
+  "userId": "645814e99b5bc5f1fb6a1fc9"
+}
+
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOiI2NDU4MTRlOTliNWJjNWYxZmI2YTFmYzkiLCJpYXQiOjE2ODM1Nzk0NzF9.JDAgFSU0VghjTm5mEpidgy57HltQV4_Brt5mAzHE_Zs
+
+{
+  "content": "User id of the note creator is at the start sent along the request",
+  "important": true
+}
