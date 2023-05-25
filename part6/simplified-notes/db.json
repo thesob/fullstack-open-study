@@ -14,6 +14,11 @@
       "content": "note added with redux",
       "important": false,
       "id": 3
+    },
+    {
+      "content": "note added with redux 2",
+      "important": false,
+      "id": 4
     }
   ]
 }
