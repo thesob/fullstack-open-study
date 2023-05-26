@@ -2,43 +2,13 @@
   "notes": [
     {
       "content": "the app state is in redux store",
-      "important": true,
+      "important": false,
       "id": 1
     },
     {
       "content": "state changes are made with actions",
-      "important": false,
+      "important": true,
       "id": 2
-    },
-    {
-      "content": "note added with redux",
-      "important": false,
-      "id": 3
-    },
-    {
-      "content": "note added with redux 2",
-      "important": false,
-      "id": 4
-    },
-    {
-      "content": "note added with react-query",
-      "important": true,
-      "id": 5
-    },
-    {
-      "content": "note added with react-query 2",
-      "important": true,
-      "id": 6
-    },
-    {
-      "content": "note added with react-query 3",
-      "important": false,
-      "id": 7
-    },
-    {
-      "content": "note added with react-query 4",
-      "important": false,
-      "id": 7
     }
   ]
 }
