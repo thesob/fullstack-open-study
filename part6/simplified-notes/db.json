@@ -19,6 +19,26 @@
       "content": "note added with redux 2",
       "important": false,
       "id": 4
+    },
+    {
+      "content": "note added with react-query",
+      "important": true,
+      "id": 5
+    },
+    {
+      "content": "note added with react-query 2",
+      "important": true,
+      "id": 6
+    },
+    {
+      "content": "note added with react-query 3",
+      "important": false,
+      "id": 7
+    },
+    {
+      "content": "note added with react-query 4",
+      "important": false,
+      "id": 7
     }
   ]
 }
