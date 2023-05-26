@@ -1,3 +1,6 @@
+import { useQuery } from 'react-query'
+import { getNotes } from './requests'
+
 const App = () => {
   const addNote = async (event) => {
     event.preventDefault()
@@ -10,7 +13,15 @@ const App = () => {
     console.log('toggle importance of', note.id)
   }
 
-  const notes = []
+  const result = useQuery('notes', getNotes)
+  
+  console.log(result)
+
+  if ( result.isLoading ) {
+    return <div>loading data...</div>
+  }
+
+  const notes = result.data
 
   return(
     <div>
