@@ -24,7 +24,6 @@ import {
   Alert,
   AppBar,
   Toolbar,
-  IconButton
 } from '@mui/material'
 
 const Home = () => (
@@ -109,6 +108,7 @@ const Login = (props) => {
 }
 
 const App = () => {
+  // eslint-disable-next-line no-unused-vars
   const [notes, setNotes] = useState([
     {
       id: 1,
@@ -146,10 +146,6 @@ const App = () => {
     setTimeout(() => {
       setMessage(null)
     }, 10000)
-  }
-
-  const padding = {
-    padding: 5
   }
 
   return (
