@@ -1,8 +1,8 @@
 **/node_modules
+build/main.js
 **/.DS_Store
 fly.toml
 Dockerfile
 .dockerignore
 .env
 package-lock.json
-part7/webpack/build/main.js
